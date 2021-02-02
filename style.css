@@ -1,0 +1,71 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin: 2%;
+}
+
+.div1 {
+    background-color: aqua;
+    position: fixed;
+    right: 50px;
+}
+.div2 {
+    background-color: rgb(201, 15, 31);
+}
+.div3 {
+    background-color: rgb(214, 236, 15);
+    position: relative;
+    left: 200px;
+}
+.div4 {
+    background-color: rgb(235, 14, 161);
+}
+.div5 {
+    background-color: rgb(250, 89, 14);
+    position: relative;
+    left: 200px;
+}
+
+
+
+
+
+.hover1, .hover2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 17, 145);
+    float: left;
+
+}
+
+.hover1:hover + .hover2 {
+    background-color: crimson;
+}
+
+
+
+
+.oflow {
+    width: 250px;
+    height: 150px;
+    border: 1px solid yellow;
+    overflow: auto;
+}
+
+
+
+
+.outerbox, .innerbox {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.outerbox {
+    background-color: teal;
+}
+
+.innerbox {
+    background-color: tomato;
+    transform: rotate(45deg) scale(.5);
+}
